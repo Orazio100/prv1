@@ -1,0 +1,13 @@
+.search-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.search-element{
+    margin-left: 5px;
+    align-self: center;
+}
+.missing-checkbox{
+    align-self: center;
+    margin-right: 10px;
+}

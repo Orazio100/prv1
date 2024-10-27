@@ -1,0 +1,12 @@
+
+<form [formGroup]="formElementList">
+
+  <div *ngFor="let col of editableFieldsName"  >
+    <mat-form-field>
+      <mat-label>{{col}}</mat-label>
+      <input matInput [formControlName]="col">
+    </mat-form-field>
+  </div>
+
+  <button type="submit">Invia</button>
+</form>

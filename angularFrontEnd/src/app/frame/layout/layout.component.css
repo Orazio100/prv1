@@ -1,0 +1,12 @@
+.base-frame{
+    height: 100%;
+}
+
+.example-spacer {
+    flex: 1 1 auto;
+  }
+  
+.sides{
+ 
+    background-color: rgb(111, 148, 148);
+}

@@ -1,0 +1,8 @@
+form{
+    display: flex;
+    width: fit-content;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 1%;
+    margin: 0 auto; 
+}

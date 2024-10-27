@@ -1,0 +1,10 @@
+
+
+<mat-sidenav-container>
+    <mat-sidenav #sideRowEdit  position="end"  mode="side">
+        <app-simple-row-editor [editableFieldsName]="listaColonne" [rowData]="editRow" *ngIf="editRow" ></app-simple-row-editor>
+    </mat-sidenav>
+    <mat-sidenav-content>
+        <app-simple-table [filterMissingColumn]="'locazione'" [searchFields]="listaSearch" [colonne]="listaColonne" [dati]="data" (onEditRow)="onEditRow($event)" ></app-simple-table>
+    </mat-sidenav-content>
+</mat-sidenav-container>
